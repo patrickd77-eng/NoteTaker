@@ -7,8 +7,8 @@ namespace NoteTaker.Models
         public int Id { get; set; }
         public string? Title { get; set; }
 
-        [DataType(DataType.Date)]
-        public string Details { get; set; }
+        [DataType(DataType.MultilineText)]
+        public string? Details { get; set; }
         
     } 
 }
